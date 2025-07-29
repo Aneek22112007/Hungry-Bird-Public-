@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #d35400;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  background: rgba(225, 94, 7, 0.479);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: rgb(247, 242, 242);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  font-size: 2em;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-item {
+  margin: 15px 0;
+}
+
+footer {
+  background-color: #d35400;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
